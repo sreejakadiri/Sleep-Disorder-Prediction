@@ -99,20 +99,3 @@ sleep-disorder-detection/
 * Integrate wearable device data for real-time monitoring
 * Add more models and ensemble techniques for higher accuracy
 * Deploy on cloud platform (e.g., Heroku, AWS)
-
----
-
-## 🧑‍💻 Contributors
-
-* \[Your Name] – Developer, ML Model Designer, UI Developer
-  *(Add more contributors if applicable)*
-
----
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Let me know if you want this personalized further with your name, GitHub link, or sample screenshots.
