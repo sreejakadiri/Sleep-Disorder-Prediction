@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sleep Disorder Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://img.freepik.com/premium-photo/yellow-blue-abstract-creative-background-blue-abstract-background-geometric-background_481527-27945.jpg?semt=ais_hybrid');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #e6f7ff;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 500px;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        p {
+            font-size: 18px;
+        }
+        .go-back {
+            margin-top: 20px;
+        }
+
+        .go-back a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .go-back a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://cdn.prod.website-files.com/63fe4fbdc589b272c333d60b/655113cd68309ecab7b57dd6_Healthy%20Sleep%20Image.png" alt="Result Image">
+        <h2>Prediction Result</h2>
+        <p>{{ result }}</p>
+        <p>{{ description }}</p>
+        <p>{{ precaution }}</p>
+        <div class="go-back">
+            <a href="{{ url_for('home') }}">Go Back</a>
+        </div>
+    </div>
+    
+
+</body>
+</html>
